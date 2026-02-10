@@ -95,49 +95,8 @@ Rédigez la fiche de cadrage du projet comprenant :
 
 ## 🧩 Work Breakdown Structure – WBS (Énoncé E2)
 
-### **Lot 1 : Serveur de fichiers & NAS**
+Ce WBS détaille la décomposition technique du projet par grands lots fonctionnels pour garantir une mise en œuvre structurée.
 
-| Réf. | Tâche | Détails |
-|----|------|---------|
-| 1.1 | Installation physique | Montage en baie, câblage, configuration RAID |
-| 1.2 | Configuration système | Volumes, partages, quotas |
-| 1.3 | Gestion des accès | Droits utilisateurs par profil |
-| 1.4 | Sauvegardes | Sauvegardes locales et externes |
-| 1.5 | Tests de restauration | Validation des procédures de récupération |
 
----
 
-### **Lot 2 : Réseau & Wi-Fi (VLAN)**
-
-| Réf. | Tâche | Détails |
-|----|------|---------|
-| 2.1 | Plan d’adressage | Définition IP et segmentation réseau |
-| 2.2 | Configuration VLAN | Admin / Formateurs / Apprenants |
-| 2.3 | Infrastructure Wi-Fi | Installation bornes et SSID |
-| 2.4 | Authentification | Portail captif sécurisé |
-| 2.5 | Tests de couverture | Validation du signal et débit |
-
----
-
-### **Lot 3 : Sécurité – Firewall**
-
-| Réf. | Tâche | Détails |
-|----|------|---------|
-| 3.1 | Installation firewall | Branchement et mises à jour |
-| 3.2 | Règles de filtrage | Flux entrants/sortants |
-| 3.3 | Accès distants | VPN d’administration sécurisé |
-| 3.4 | Journalisation | Centralisation et analyse des logs |
-| 3.5 | Audit de sécurité | Vérification de l’isolation réseau |
-
----
-
-### **Lot 4 : Documentation, formation et recette**
-
-| Réf. | Tâche | Détails |
-|----|------|---------|
-| 4.1 | Documentation technique | Schémas et procédures |
-| 4.2 | Guides utilisateurs | Connexion Wi-Fi et fichiers |
-| 4.3 | Formation alternant | Accompagnement et montée en compétences |
-| 4.4 | Recette finale | Tests, validation direction |
-
-# A suivre...
+  
