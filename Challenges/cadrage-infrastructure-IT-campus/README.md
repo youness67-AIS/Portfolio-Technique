@@ -97,7 +97,7 @@ Rédigez la fiche de cadrage du projet comprenant :
 
 Ce WBS détaille la décomposition technique du projet par grands lots fonctionnels pour garantir une mise en œuvre structurée.
 
-![WBS - Modernisation IT Campus](WBS_IT_Campus.png)
+
 
 ## A suivre...
 
