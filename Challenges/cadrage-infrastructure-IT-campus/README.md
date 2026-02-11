@@ -100,6 +100,29 @@ Ce WBS détaille la décomposition technique du projet par grands lots fonctionn
 ![WBS - Modernisation IT Campus](WBS_IT_Campus.png)
 
 
-## A suivre...
+## ⚠️ Analyse des risques (Énoncé E3)
 
-  
+Ce registre identifie les menaces potentielles du projet, leur évaluation et les mesures de prévention associées.
+
+### 📊 Registre des risques
+
+| ID | Catégorie | Risque identifié | Probabilité | Impact | Criticité | Mesure d'atténuation (Prévention) |
+|:---|:---|:---|:---:|:---:|:---:|:---|
+| **R1** | **Technique** | Panne matérielle au déballage (DOA) | Faible | Moyen | **2** | Vérification immédiate et garantie constructeur J+1. |
+| **R2** | **Humain** | Accident ou absence prolongée de l'alternant | Moyenne | Faible | **2** | Documentation systématique pour reprise par le tuteur. |
+| **R3** | **Organisation** | Retard de livraison des équipements (pénurie) | Forte | Moyen | **6** | Commande anticipée dès la validation du cadrage. |
+| **R4** | **Technique** | Incompatibilité entre le Firewall et le FAI actuel | Faible | Critique | **3** | Audit technique préalable et test de maquettage. |
+| **R5** | **Organisation** | Coupure internet prolongée durant la bascule | Moyenne | Critique | **6** | Intervention planifiée en heures non ouvrées (week-end). |
+| **R6** | **Humain** | Résistance au changement des salariés (nouveaux accès) | Moyenne | Faible | **2** | Communication préalable et rédaction de guides simples. |
+| **R7** | **Technique** | Perte de données lors de la migration vers le NAS | Faible | Critique | **3** | Double sauvegarde (Backup) avant toute manipulation. |
+| **R8** | **Organisation** | Dépassement du budget (coûts cachés de câblage) | Moyenne | Moyen | **4** | Marge de sécurité de 10% dans l'enveloppe budgétaire. |
+| **R9** | **Technique** | Couverture Wi-Fi insuffisante dans certaines zones | Moyenne | Moyen | **4** | Réalisation d'une étude de couverture (Heatmap) précise. |
+| **R10** | **Technique** | Cyberattaque durant la phase de configuration | Faible | Critique | **3** | Mise à jour immédiate et durcissement (Hardening) du Firewall. |
+
+### 📈 Classement par criticité (Priorisation)
+
+1.  **Risques Élevés (Score 6) :** Retard de livraison (R3), Interruption de service (R5).
+2.  **Risques Modérés (Score 4) :** Dépassement budgétaire (R8), Problème de couverture Wi-Fi (R9).
+3.  **Risques Faibles (Score 2-3) :** Pannes techniques (R1, R4, R7, R10), Facteurs humains (R2, R6).
+
+## A suivre...
