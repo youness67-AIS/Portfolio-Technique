@@ -125,4 +125,24 @@ Ce registre identifie les menaces potentielles du projet, leur évaluation et le
 2.  **Risques Modérés (Score 4) :** Dépassement budgétaire (R8), Problème de couverture Wi-Fi (R9).
 3.  **Risques Faibles (Score 2-3) :** Pannes techniques (R1, R4, R7, R10), Facteurs humains (R2, R6).
 
-## A suivre...
+## 🛡️ Plan de Reprise d'Activité (Énoncé E4)
+
+Ce document définit la stratégie de survie de l'infrastructure du campus en cas d'incident majeur.
+
+### 1. Scénario d'incident majeur
+* **Incident :** Panne matérielle totale du serveur principal (Crash de la carte mère ou du contrôleur RAID).
+* **Impact :** Interruption de l'accès aux fichiers, au NAS, aux services d'authentification et au Wi-Fi sécurisé pour les 500 utilisateurs.
+
+### 2. Stratégie de Reprise
+
+| Composante | Description |
+|:---|:---|
+| **Mesures préventives** | • Sauvegarde externalisée quotidienne (3-2-1 rule).<br>• Serveur de secours (spare) prêt à être configuré.<br>• Onduleur (UPS) pour éviter les coupures brutales. |
+| **Procédures de reprise** | 1. Diagnostic et confirmation de la panne matérielle.<br>2. Restauration de l'image système sur le matériel de secours.<br>3. Remontage des volumes de données via le NAS.<br>4. Re-connexion du Firewall et test des VLANs. |
+| **Responsable** | Administrateur des Infrastructures Sécurisées (AIS). |
+| **Délai de restauration (RTO)** | 4 heures (Rétablissement des services critiques prioritaires). |
+
+### 3. Indicateurs de succès
+* **Intégrité des données :** 100% des fichiers restaurés à partir de la sauvegarde de la veille (RPO).
+* **Disponibilité :** Rétablissement effectif de l'accès Wi-Fi et des serveurs de fichiers pour les apprenants.
+* **Stabilité :** Absence d'erreurs système ou de pertes de paquets 1h après la remise en service.
